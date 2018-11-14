@@ -380,6 +380,13 @@ margin-top:-30px;
 
  }
 
+ #skills .title-text{
+     margin-top: 35px
+ }
+ #skills .title-icon{
+     margin-top: 35px
+ }
+
  .skills-center{
 
 min-width:90%;
