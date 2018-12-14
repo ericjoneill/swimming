@@ -534,10 +534,9 @@
     
     
     /* --------------form section----------------- */
-    
     #form{
     min-height:60vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(140,14,87,0.3)),url(https://camblab.info/wp/wp-content/uploads/2017/02/pool-water.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(140,14,87,0.3)),url(https://camblab.info/wp/wp-content/uploads/2017/02/pool-water.jpg) center/cover no-repeat fixed;
 
     background-size: cover;
     background-position: center;
@@ -547,6 +546,26 @@
     justify-content: center;
     align-items: center;
     }
+
+    @media screen and (max-width:500px){
+        #form{
+            background: linear-gradient(rgba(0, 87, 187, 0.7),rgba(140,14,87,0.3)), url(https://camblab.info/wp/wp-content/uploads/2017/02/pool-water.jpg);
+            
+
+        }
+    }
+
+    #about{
+        min-height: 90vh;
+        padding:40px 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(140,14,87,0.3)) ,url(http://previews.123rf.com/images/enki/enki1407/enki140700015/30573287-Swimming-pool-with-wooden-deck-top-view-Stock-Photo.jpg) center/cover no-repeat fixed;
+        clip-path: polygon(0 0,100% 5%,100% 100%,0 95%);
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        }
     
     form{
     
@@ -682,6 +701,17 @@
     background-repeat: no-repeat;
     
     }
+
+    @media screen and (max-width:500px){
+        #about{
+            background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(140,14,87,0.3)), url(http://previews.123rf.com/images/enki/enki1407/enki140700015/30573287-Swimming-pool-with-wooden-deck-top-view-Stock-Photo.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+    }
+
+    
     
     
     #about-center{
