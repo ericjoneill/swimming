@@ -554,18 +554,6 @@
 
         }
     }
-
-    #about{
-        min-height: 90vh;
-        padding:40px 0;
-        background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(140,14,87,0.3)) ,url(http://previews.123rf.com/images/enki/enki1407/enki140700015/30573287-Swimming-pool-with-wooden-deck-top-view-Stock-Photo.jpg) center/cover no-repeat fixed;
-        clip-path: polygon(0 0,100% 5%,100% 100%,0 95%);
-        justify-content: center;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        
-        }
     
     form{
     
