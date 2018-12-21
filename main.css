@@ -166,7 +166,7 @@
         
     
     flex:1 0 auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(140,14,87,0.3))   ,url(https://images.pexels.com/photos/261323/pexels-photo-261323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
+    background: linear-gradient(rgba(0, 0, 0, 1),rgba(140,14,87,0.3))   ,url(https://images.pexels.com/photos/261323/pexels-photo-261323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
     background-position: center;
     background-size: 100% 100%;   
     background-repeat: no-repeat;
